@@ -29,7 +29,7 @@ int main() {
 
 			if (myArray[i].isbn == isbnToBorrow) {
 				if (myArray[i].borrowBook()) {
-					cout << "Don't forget to return the book: " << myArray[i].title << endl;
+					cout << "Don't forget to return the book: " << myArray[i].title << " Written by " << myArray[i].author << endl;
 				}
 				else { //we couldn't borrow the book
 					cout << "The book " << myArray[i].title << " is unavailable" << endl;
