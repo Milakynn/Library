@@ -15,7 +15,7 @@ void Book::displayBookDetails() {
 }
 
 void Book::returnBook() {
-	available = false;
+	available = true;
 }
 
 bool Book::borrowBook() {

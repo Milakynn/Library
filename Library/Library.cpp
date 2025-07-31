@@ -47,7 +47,7 @@ int main() {
 						if (myArray[i].borrowBook()) {
 							cout << "==> You have borrowed the book: " << myArray[i].title 
 								<< " Written by: " << myArray[i].author << endl;
-							cout << "Don't forget to return the book: " << endl;
+							cout << "Don't forget to return the book: " << myArray[i].title << endl;
 							break;
 						}
 						else { // we couldn't borrow the book
